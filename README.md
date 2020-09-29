@@ -1,2 +1,2 @@
 # unnamedproject-ui
-New user interface for Unnamedproject.net.
+New minimal design user interface for Unnamedproject.net.
