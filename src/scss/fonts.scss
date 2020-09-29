@@ -9,6 +9,20 @@ h1{
   .is-bold {
     font-weight: 700;
   }
+  .mask{
+    background: url("../assets/mehmet-arici-bg.webp") repeat;
+    background-position: 0 50%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+  }
+  .text{
+   color: transparent;
+   text-stroke: 5px;
+   background-position: 0 0;
+   // transition: background-position 1.5s;
+  }
 }
 
 h2{
@@ -19,6 +33,19 @@ h2{
   line-height: 44px;
   .is-bold {
     font-weight: 700;
+  }
+  .mask{
+    background: url("../assets/front-end-bg.webp") repeat;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+  }
+  .text2{
+   color: transparent;
+   text-stroke: 5px;
+   background-position: 0 0;
   }
 }
 
