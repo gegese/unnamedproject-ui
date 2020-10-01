@@ -9,11 +9,26 @@ body{
 }
 
 .centered-content {
+  display: flex;
   position: fixed;
   top: 50%;
   left: 50%;
   margin-right: -30%;
   transform: translate(-50%, -50%);
+}
+
+.has-max-width{
+  max-width: 1440px;
+}
+
+.home-page-link{
+  color: #424242;
+  text-decoration: underline;
+  transition: all .5s;
+}
+.home-page-link:hover{
+  text-decoration: line-through;
+  color: tomato;
 }
 
 .left-side-tab{

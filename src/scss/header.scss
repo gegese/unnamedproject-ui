@@ -5,6 +5,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   font-family: 'Comfortaa', cursive;
+   flex: 1 0 auto;
   .up-logo{
     font-size: 3rem;
     font-style: normal;
@@ -89,10 +90,12 @@
       position:absolute;
       left:0px;
       bottom:-5px;
-      height:10px;
+      height:5px;
+      border-radius: 5px;
       width:0%;
       background:tomato;
-      transition:all 300ms ease-in-out;
+      // background: linear-gradient(90deg, rgba(227,0,0,1) 0%, rgba(0,0,0,1) 80%);
+      transition: all 300ms ease-in-out;
     }
     a:hover:after {
       width:100%;
@@ -106,12 +109,14 @@
     }
     span:nth-child(1){
       background: tomato;
+      // background: linear-gradient(90deg, rgba(227,0,0,1) 0%, rgba(0,0,0,1) 80%);
       top: 0px;
       left: 35px;
       transform:translate(-50%,-50%) rotate(45deg);
     }
     span:nth-child(2){
       background: tomato;
+      // background: linear-gradient(90deg, rgba(227,0,0,1) 0%, rgba(0,0,0,1) 80%);
       top: 0px;
       left: 35px;
       transform:translate(-50%,-50%) rotate(-45deg);
