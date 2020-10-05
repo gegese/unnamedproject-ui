@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  .column {
+    display: flex;
+    flex-direction: column;
+    &.align-item-center{
+      align-items: center;
+    }
+  }
+  .divider {
+    width: 2px;
+    height: 100%;
+    margin: 0 20px;
+    border-radius: 5px;
+    background: #42424250;
+  }
+  a {
+    text-decoration: none;
+    color: #424242;
+  }
+}

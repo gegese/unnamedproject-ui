@@ -1,0 +1,1 @@
+.contact-container{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center}.contact-container .column{display:flex;flex-direction:column}.contact-container .column.align-item-center{align-items:center}.contact-container .divider{width:2px;height:100%;margin:0 20px;border-radius:5px;background:#42424250}.contact-container a{text-decoration:none;color:#424242}
